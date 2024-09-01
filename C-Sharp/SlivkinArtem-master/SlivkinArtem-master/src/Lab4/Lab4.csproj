@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab4</RootNamespace>
+        <NoWarn>SA1028, SA1513</NoWarn>
+        <OutputType>Exe</OutputType>
+        <StartupObject>Itmo.ObjectOrientedProgramming.Lab4.Program</StartupObject>
+    </PropertyGroup>
+
+
+
+</Project>

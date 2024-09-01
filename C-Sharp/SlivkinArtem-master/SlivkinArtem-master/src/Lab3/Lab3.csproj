@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab3</RootNamespace>
+        <NoWarn>SA1028, SA1513</NoWarn>
+    </PropertyGroup>
+
+
+
+    <ItemGroup>
+      <PackageReference Include="Crayon" />
+
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Project>

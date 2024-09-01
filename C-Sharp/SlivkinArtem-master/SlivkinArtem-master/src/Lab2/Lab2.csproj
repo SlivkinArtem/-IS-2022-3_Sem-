@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab2</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <!-- Другие настройки -->
+        <NoWarn>SA1028, SA1513</NoWarn>
+    </PropertyGroup>
+
+
+
+</Project>

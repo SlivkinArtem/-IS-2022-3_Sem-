@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Lab5.Infrastructure.DataAcess</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
+<!--        <PackageReference Include="FluentMigrator.DotNet.Cli" Version="7.0.0" />-->
+<!--      <PackageReference Include="FluentMigrator" Version="7.0.0" />-->
+<!--      <PackageReference Include="FluentMigrator.Runner" Version="7.0.0" />-->
+<!--      <PackageReference Include="FluentMigrator.Runner.Postgres" Version="7.0.0" />-->
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.0" />
+        <PackageReference Include="Itmo.Dev.Platform.Postgres" Version="1.1.62" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lab5.Application.Models\Lab5.Application.Models.csproj" />
+    </ItemGroup>
+
+</Project>
